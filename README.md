@@ -1,92 +1,49 @@
 # MotoDrive MX1508 Solution
 
-电机驱动 MX1508 方案
+⭐ 电机驱动 MX1508 方案 ⭐
 
-## Getting started
+[![pipeline status](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/badges/master/pipeline.svg)](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/commits/master) [![Latest Release](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/badges/release.svg)](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/releases) [![vercel](https://vercelbadge.soraharu.com/?app=interactivehtmlbom)](https://interactivehtmlbom.soraharu.com/)
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+🔗 [GitLab (Homepage)](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution) | 🔗 [OSHWHub](https://oshwhub.com/yanranxiaoxi/MotoDrive-MX1508-Solution) | 🔗 [GitHub](https://github.com/yanranxiaoxi/MotoDrive-MX1508-Solution)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+![实拍图](https://downloadserver.soraharu.com:7000/MotoDrive%20MX1508%20Solution/Image/Product_quality_5.jpg)
 
-## Add your files
+## 🤔 这是什么
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+这是一个使用 MX1508 制作的玩具电机驱动，使用 [立创 EDA](https://lceda.cn/) 进行开发。
 
-```
-cd existing_repo
-git remote add origin https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution.git
-git branch -M master
-git push -uf origin master
-```
+本设计采用 MX1508 作为驱动芯片，总体布局及使用方法和 L298N 方案一致。
 
-## Integrate with your tools
+## 🍭 使用说明
 
-- [ ] [Set up project integrations](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/settings/integrations)
+本 PCB 设计已通过完整功能性测试，且已添加 [嘉立创](https://www.jlc.com/) SMT 定位孔，可直接进行 SMT 贴片生产。但请注意，本设计完整开源并遵循 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) 开源协议，开源作者不对作品的安全性、完整性作任何承诺，且不对因此产生的任何损失承担后果。
 
-## Collaborate with your team
+你可以使用本项目的 [焊接助手](https://interactivehtmlbom.soraharu.com/MotoDrive-MX1508-Solution.html) 有效地提升手工焊接效率，本助手通过 [InteractiveHtmlBom](https://gitlab.soraharu.com/XiaoXi/InteractiveHtmlBom) 流水线自动化生成。
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## 🏃 主要性能参数
 
-## Test and Deploy
+- 电机驱动通道：双通道
+- 最大输入电压：9.6V
+- 单通道持续输出电流：1.35A
+- 单通道最大峰值输出电流：2A
+- 双通道持续输出电流：1A
 
-Use the built-in continuous integration in GitLab.
+## 🛠️ 生产电路板
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+本项目的 Gerber 文件可以从 [Releases](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/releases) 页面获取，并允许在开源许可范围内的商业目的使用。
 
-***
+*建议使用 [嘉立创](https://www.jlc.com/) 生产高品质电路板。
 
-# Editing this README
+*It is recommended to use [JLCPCB](https://jlcpcb.com/) to produce high-quality circuit boards.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## ⚙️ 部署至 EasyEDA
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+1. 克隆本项目 [源代码](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/archive/master/MotoDrive-MX1508-Solution-master.zip) 到本地
+2. 在立创 EDA 标准版编辑器中选择 `文件` -> `打开` -> `立创EDA...`
+3. 选择本项目源代码中的 `/EasyEDA/*.json` 文件并分别导入
 
-## Name
-Choose a self-explaining name for your project.
+## 📜 开源许可
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+基于 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) 许可进行开源。
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+本设计已在 [中国版权保护中心](https://www.ccopyright.com.cn/) 登记注册。
