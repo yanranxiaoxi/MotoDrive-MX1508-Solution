@@ -14,6 +14,8 @@
 
 本设计采用 MX1508 作为驱动芯片，总体布局及使用方法和 L298N 方案一致。
 
+建议使用小型板设计，CubeSmall 版型只是为了兼容 50mm 标准规格的一种妥协。
+
 ## 🍭 使用说明
 
 本 PCB 设计已通过完整功能性测试，且已添加 [嘉立创](https://www.jlc.com/) SMT 定位孔，可直接进行 SMT 贴片生产。但请注意，本设计完整开源并遵循 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) 开源协议，开源作者不对作品的安全性、完整性作任何承诺，且不对因此产生的任何损失承担后果。
