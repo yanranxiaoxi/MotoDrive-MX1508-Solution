@@ -1,6 +1,6 @@
 # MotoDrive MX1508 Solution
 
-⭐ 电机驱动 MX1508 方案 ⭐
+⭐ 双路直流电机驱动 MX1508 方案 ⭐
 
 [![pipeline status](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/badges/master/pipeline.svg)](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/commits/master) [![Latest Release](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/badges/release.svg)](https://gitlab.soraharu.com/XiaoXi/MotoDrive-MX1508-Solution/-/releases) [![vercel](https://vercelbadge.soraharu.com/?app=interactivehtmlbom)](https://interactivehtmlbom.soraharu.com/)
 
